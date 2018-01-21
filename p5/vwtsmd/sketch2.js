@@ -15,7 +15,7 @@ var nInt = 1.0; // noise intensity
 var nAmp = 1.0; // noise amplitude
 
 function setup() {
-  canvas1 = createCanvas(windowWidth-1, 1400);
+  canvas1 = createCanvas(windowWidth-20, 1400);
   text1 = createP('Various Ways the Sun Might Die');
   text1.position(50, 850);
   text1.style("font-size", "30pt");
